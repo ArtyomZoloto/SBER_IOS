@@ -9,8 +9,8 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    UIImage *image = [UIImage imageNamed:@"apple_logo"];
-    UIView *azRect = [[AZRect alloc] initWithImage: image];
+    
+    UIView *azRect = [[AZRect alloc] initWithFrame:CGRectMake(50, 50, 200, 200)];
     [self.view addSubview:azRect];
     
 }
